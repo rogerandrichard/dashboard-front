@@ -1,0 +1,231 @@
+@import url(http://fonts.googleapis.com/css?family=Lato);
+@import url(https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.css);
+
+html {
+    position: relative;
+    min-height: 100%;
+}
+
+body {
+  padding: 25px;
+}
+
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 80px;
+}
+
+.App-header {
+  background-color: #222;
+  height: 150px;
+  padding: 20px;
+  color: white;
+}
+
+.form-control {
+  width: 75%;
+  min-width: 160px;
+}
+
+.App-intro {
+  font-size: large;
+}
+
+footer {
+  position: absolute;
+  bottom: 0px;
+  left: 0px;
+  right:0px;
+  width: 100%;
+  background-color: #00205b;
+  color: white;
+  font-family: 'Lato', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  padding: 1% 2% 3%;
+}
+
+#admin-container {
+  background-color: #00205b;
+  color: white;
+  padding: 10%;
+  width: 80%;
+  margin-left: 10%;
+  margin-top: 100px;
+  border-radius: 15px;
+  padding: 7%;
+}
+
+#editProfileContainer {
+  margin: 5% 0 25%;
+}
+
+#myProfileContainer {
+  margin: 10% 5% 15%;
+}
+
+#root {
+  margin: 36px 0 175px;
+}
+
+#brand {
+  color: White;
+  font-weight: 400;
+  font-family: "Merriweather", Georgia, serif;
+}
+
+#brand-image {
+  float: left;
+  margin-right: 5px;
+  height: 80px;
+  width: 80px;
+}
+
+#loadingGif {
+  display: block;
+  margin: 20% auto 25%;
+}
+
+#currentClient {
+  color: white;
+  position: fixed;
+  right: 10%;
+  height: 21px;
+  font-size: small;
+}
+
+.facebook-link {
+  float: right;
+}
+
+.fa-facebook {
+    padding:10px 14px;
+    -o-transition:.5s;
+    -ms-transition:.5s;
+    -moz-transition:.5s;
+    -webkit-transition:.5s;
+    transition: .5s;
+    color: #fff;
+    margin: 20%;
+}
+.fa-facebook:hover {
+    background-color: #3d5b99;
+}
+/*RGB: 0 32 91*/
+#navbar {
+  background-color: #00205b;
+}
+
+#nav-btns {
+  margin-top: 15px;
+}
+
+#myJobsContainer {
+  padding: 2%;
+}
+
+.jumbotron {
+  padding-left: 10%;
+}
+
+.navbar-brand {
+  padding: 0px;
+  width: 260px;
+  height: 80px;
+}
+
+.navbar-brand>img {
+  height: 100%;
+}
+
+.navbar-inverse .navbar-toggle:hover {
+  border: 2px solid white;
+}
+
+.navbar-inverse .navbar-toggle {
+  border: 2px solid transparent;
+}
+
+.main-container {
+  padding: 1%;
+}
+
+#VideoModalBtn {
+  margin-bottom: 25px;
+}
+
+#modal-container {
+  margin-top: 50px;
+}
+
+/*#productsContainer {
+  margin-bottom: 50px;
+}*/
+
+.modal-container {
+  position: relative;
+}
+
+.center-block {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 40%;
+}
+
+.modal-container .modal, .modal-container .modal-backdrop {
+  position: absolute;
+}
+
+#myJobsBadge {
+  margin-left: 4px;
+  background-color: white;
+  color: #001f70;
+}
+
+.thumbnail {
+  padding: 5px;
+  box-sizing: content-box;
+}
+
+.productImg {
+  width: 100%;
+}
+.productImg img {
+  width: 100%;
+}
+
+@media all and (min-width: 769px) {
+  .productImg {
+    width: 100%;
+    height: 160px;
+  }
+  .productImg img {
+    width: 100%;
+    height: 160px;
+  }
+  .thumbnail {
+    padding: 5px;
+    height: 385px;
+    box-sizing: border-box;
+    /*flex-wrap: wrap;*/
+    /*flex: initial;*/
+  }
+  .thumbnail > .caption {
+    height: 167px;
+  }
+  .btn btn-lg btn-primary btn-block {
+    position: absolute;
+    bottom: 5px;
+    left: 0;
+    width: 100%;
+  }
+}
+
+@keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
